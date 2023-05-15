@@ -19,14 +19,14 @@ public class CartTest {
         System.out.println("BEFORE REMOVE");
         anOrder.displayCart();
 
-        anOrder.removeDigitalVideoDisc(dvd4);
+        anOrder.removeDigitalVideoDisc(dvd2);
 
         System.out.println("AFTER REMOVE");
         anOrder.displayCart();
 
-        anOrder.searchById(1);
+        anOrder.searchById(3);
 
-        anOrder.searchByTitle("Aladin");
+        anOrder.searchByTitle("The Lion King");
 
     }
 }
