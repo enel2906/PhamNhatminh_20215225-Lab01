@@ -1,0 +1,12 @@
+--Even after we swap the objects "jungleDVD" and "cinderellaDVD" 
+using the "swap" function, their titles remain the same because 
+the "swap" function creates new copies of these objects, and the 
+swap occurs between these new references only, while the original 
+objects remain unchanged.
+
+-- In the "changeTitle" function, the title of the "jungleDVD" 
+changes, as the function creates a copy of "jungleDVD" called 
+"jungleDVD_new" that points to the same object. Then the "setTitle"
+ method of "jungleDVD_new" is used to update the title, which changes 
+ the title of the object that both "jungleDVD_new" and "jungleDVD" were 
+ pointing to.
