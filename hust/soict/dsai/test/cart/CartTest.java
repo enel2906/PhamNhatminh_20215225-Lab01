@@ -11,7 +11,9 @@ public class CartTest {
         
         DigitalVideoDisc dvd3 = new DigitalVideoDisc("Aladin", "Animation", 18.99f);
 
-        DigitalVideoDisc dvd4 = new DigitalVideoDisc("Tokyo goul", "Animation", 18.99f);
+        DigitalVideoDisc dvd4 = new DigitalVideoDisc("Shouko", "Animation", 18.99f);
+        
+        DigitalVideoDisc dvd5 = new DigitalVideoDisc("Ken Neki", "Hai Ten", 48.99f);
 
         anOrder.addDigitalVideoDisc(dvd1);
         anOrder.addDigitalVideoDisc(dvd4,dvd2,dvd3);
